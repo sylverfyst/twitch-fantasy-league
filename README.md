@@ -1,25 +1,26 @@
-# README
+# Twitch Fanatasy League README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby Version
 
-Things you may want to cover:
+**2.7.0**
 
-* Ruby version
+## Rails Version
 
-* System dependencies
+**6.0.2**
 
-* Configuration
+## Concept
 
-* Database creation
+This app is designed to be a new way to interact with twitch and your favorite
+streamers!  It's built sort of like Fantasy Football, you get a group of
+friends, form a league, and draft your team.  Each week stats like views,
+followers, subs, and time streamed will be calculated to get you points.  At
+the end of the week the user with the most points in the head to head matchup
+will take a win.  The user with the best record at the end of the season will
+win their league.
 
-* Database initialization
+## Models
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# twitch-fantasy-league
+- User
+- Streamer
+- Team
+- League

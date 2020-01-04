@@ -11,6 +11,7 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'curb'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -35,6 +36,7 @@ group :test do
   gem 'simplecov'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
+  gem 'rubocop'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
